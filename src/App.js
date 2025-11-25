@@ -1,13 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 
+
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" width="50" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+              <h1 style={{ color: "red"}}>mi </h1>   <h1 style={{ color: "green"}}> primera </h1>  <h1 style={{ color: "yellow" }}>página</h1>
+
+                      
         </p>
         <a
           className="App-link"
@@ -15,11 +19,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
         </a>
       </header>
     </div>
   );
 }
 
-export default App;
+export default App ;
+
